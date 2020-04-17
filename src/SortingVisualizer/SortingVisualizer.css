@@ -1,0 +1,57 @@
+:root
+{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+
+.first
+{
+
+    width: 3px;
+    background-color:rgb(206, 145, 32);
+    display: inline-block;
+    margin: 0 1px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+
+
+
+}
+
+#Button1
+{
+position: relative;
+top:50px;
+display:inline-block;
+padding:0.5em 3em;
+border:0.20em solid rgb(206, 145, 32);
+margin:0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:600;
+color:rgb(204, 106, 15);
+text-align:center;
+transition: all 0.15s;
+  }
+#Button1:hover{
+    color:rgba(158, 35, 62, 0.822);
+border-color:#DDDDDD;
+}
+#Button1:active
+{
+    color:rgb(187, 187, 187);
+border-color:#BBBBBB;
+
+@media all and (max-width:30em){
+     #Button1{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+   
+}
